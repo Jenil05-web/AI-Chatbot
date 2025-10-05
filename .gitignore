@@ -1,0 +1,52 @@
+# ----------------------------
+# Node & Dependency folders
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------------
+# Environment variables
+# ----------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----------------------------
+# Build output
+# ----------------------------
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+tmp/
+temp/
+.DS_Store
+
+# ----------------------------
+# Logs
+# ----------------------------
+logs/
+*.log
+*.log.*
+
+# ----------------------------
+# System files
+# ----------------------------
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# ----------------------------
+# Optional: TypeScript / Babel
+# ----------------------------
+*.tsbuildinfo
+.cache/
+.babelrc
